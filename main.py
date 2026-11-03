@@ -30,4 +30,4 @@ async def cartman_slash(interaction: discord.Interaction, mensagem: str):
     resp = falar_com_cartman(mensagem)
     await interaction.followup.send(resp[:2000])
 
-bot.run(DISCORD_TOKEN)
+bot.run("SEU_TOKEN_AQUI_DENTRO_DAS_ASPAS")
